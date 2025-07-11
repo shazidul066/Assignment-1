@@ -1,60 +1,36 @@
-/* universal */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-/* landing font */
-
-.landing-font {
-    
-font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+*{
+    margin:0;
+    padding: 0;;
 }
 
-/* sign-up font */
 
-.sign-up{
-   color: rgb(255, 255, 255);
-font-family: Raleway;
-font-size: 16px;
-font-weight: 700;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: center;
-list-style: none;
+/* Nav Bar */
+.nav{
+     display:flex;
+     justify-content: space-between;
+     margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 150px;
 
 
-    
 }
 
-/* nav bar*/
-
-
-
-nav{
-    display:flex;
-    justify-content: space-around;
-    
-    
-
+.color{
+   background-color:  rgb(78, 71, 255);
 }
 .logo{
-    color: rgb(78, 71, 255);
-font-family: Inter;
-font-size: 34px;
-font-weight: 900;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
-margin-top: 50px;
+    color: rgb(78, 71, 255);;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 0%;
+    
 }
 
-nav ul li button{
-   list-style: none;
+.sign-up{
     background-color: rgb(78, 71, 255);
+
     color: rgb(255, 255, 255);
     font-family: Raleway;
     font-size: 16px;
@@ -62,27 +38,15 @@ nav ul li button{
     line-height: 150%;
     letter-spacing: 0%;
     text-align: center;
-    width: 132px;
-    height: 48px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 36px 12px 36px;
     border-radius: 10px;
-    margin: 0px 16px;
-    gap: 10px;
-    border: none;
-
-    margin-top: 50px;
-}
-nav ul li{
-    list-style: none;
-    
-}
+    border-style: none;
 
 
-/*banner bg*/
-
-.header{
-    background-image: url("../Assets/Hero-bg.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-repeat: no-repeat;
 }
