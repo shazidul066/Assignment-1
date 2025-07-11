@@ -9,8 +9,7 @@
      display:flex;
      justify-content: space-between;
      margin-left: 150px;
-    margin-top: 50px;
-    margin-right: 150px;
+    
 
 
 }
@@ -25,6 +24,8 @@
     font-weight: 900;
     line-height: 150%;
     letter-spacing: 0%;
+    margin-top: 50px;
+    margin-right: 150px;
     
 }
 
@@ -47,6 +48,16 @@
     padding: 12px 36px 12px 36px;
     border-radius: 10px;
     border-style: none;
+    margin-top: 50px;
+    margin-right: 150px;
 
 
+}
+/* starting banner */
+
+.header{
+    background-image: url("../Assets/Hero-bg.png");
+    background-size: cover; 
+    height: 100vh;
+    
 }
