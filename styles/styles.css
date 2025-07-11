@@ -4,7 +4,9 @@
     
 }
 
-
+body{
+    background-color:rgb(245, 248, 255);
+}
 /* Nav Bar */
 .nav{
      display:flex;
@@ -236,3 +238,191 @@ text-align: left;
 
 
 /*What Our User say   */
+.say-title{
+    display: flex;
+    justify-content: center;
+    margin:137px auto 50px;
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.user-say{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    max-height: 324px;
+}
+.review-container{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.review-card{
+    border: 20px solid rgba(78, 71, 255, 0.1);
+    width: 366.67px;
+    height: 243px;
+    text-align: left;
+padding: 24px 24px 24px 24px;
+
+
+box-sizing: border-box;
+border: 1px solid rgb(242, 237, 237);
+border-radius: 14px;
+
+
+
+}
+.review-card h3
+{
+    
+color: rgb(30, 30, 30);
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: -2%;
+text-align: left;
+padding-top: 24px;
+padding-bottom: 8px;
+    
+}
+
+.review-card p{
+    /* Body Base */
+color: rgb(30, 30, 30);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.reviewer{
+    padding-top: 24px;
+    display: flex;
+    gap:10px;
+    color: rgb(117, 117, 117);
+}
+.riviewer-info p, name {
+    /* Body Base */
+color: rgb(117, 117, 117);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* footer */
+.footer-bg{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color:rgb(245, 248, 255);
+    width: 1140px;
+    max-height: 632px;
+    padding: 71px 0px 71px 0px;
+    margin-top: 100px;
+}
+
+.contact-text{
+    color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 97px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+padding: right 1615px; ;
+
+margin-right : 115px; 
+
+}
+  
+
+
+
+.contact-section{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact-container{
+    display: flex;
+  max-width: 100vh;
+  width: 100%;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   
+  gap: 16px;
+  min-width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.contact-form label{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn{
+    background-color: rgb(78, 71, 255);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 201px;
+    gap: 10;
+    padding: 12px 36px 12px 36px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+
+/* last logo */
