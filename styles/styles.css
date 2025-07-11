@@ -115,10 +115,11 @@ border-style: none;
 .action{
     display:flex;
     justify-content: center;
-    margin:116px 160px 116px 141px;
+    margin:116px auto;
     height:328px;
     gap:220px;
     line-break: 23px;
+    align-items: center;
 
 }
 .action-content{
@@ -180,3 +181,58 @@ height: 48px;
     font-weight: 700;
     line-height: 150%;
 }
+
+/*  starting user stat information */
+
+
+.stat-bg{
+    background-color:rgba(78, 71, 255, 0.1);
+    max-width: 1140px;
+    height: 306px;
+    border-radius: 24px;
+    margin: 0 auto;
+}
+.section-title{
+    color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 38px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+padding: 50px 80px 50px 80px;
+}
+
+
+.item-description{
+    color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.item-title{
+    color: rgb(78, 71, 255);
+font-family: Inter;
+font-size: 80px;
+font-weight: 700;
+line-height: 97px;
+letter-spacing: 0%;
+text-align: left;
+}
+.stat-items{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 80px 0px 80px;
+}
+
+
+
+
+
+/*What Our User say   */
